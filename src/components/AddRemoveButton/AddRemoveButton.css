@@ -1,0 +1,36 @@
+.add-remove-button {
+  display: flex;
+  margin: 0 auto;
+  width: 28rem;
+  padding: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 2px solid var(--color-white);
+  text-decoration: none;
+  color: var(--color-white);
+}
+.add-remove-button.add {
+  justify-content: center;
+  width: 10rem;
+  margin: 0;
+}
+
+.add-remove-button:hover {
+  background-color: var(--color-bright-blue);
+}
+
+.add-remove-button:active {
+  border: none;
+}
+.add-remove-button:visited {
+  color: var(--color-white);
+}
+
+div.button-icon {
+  float: right;
+}
+
+.add-remove-button.active {
+  background-color: var(--color-bright-blue);
+}
