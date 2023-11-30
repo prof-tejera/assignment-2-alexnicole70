@@ -12,7 +12,7 @@ import XY, { AddXYInput, XYWithUserInput } from "./components/XY/XY";
 import Tabata, { AddTabataInput } from "./components/TABATA/TABATA";
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   NavLink as Link,
